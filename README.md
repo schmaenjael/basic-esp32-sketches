@@ -27,8 +27,8 @@ $ git clone https://github.com/schmaenjael/ESP32_SketchCollection
 ESP32_SketchCollection
 ├── Sketch_ArduinoKeyClick
 │   └── Sketch_Key_Klick.ino
-├── Sketch_EigeneFarbe
-│   └── Sketch_EigeneFarbe.ino
+├── Sketch_MixedColor
+│   └── Sketch_MixedColor.ino
 ├── Sketch_PWM
 │   └── Sketch_PWM.ino
 ├── Sketch_TimerAndInterrupts
