@@ -1,3 +1,11 @@
+/*
+ * Author: schmaenjael
+ * Language:  C++ using the Arduino Library
+ * Github: https://github.com/schmaenjael/ESP32_SketchCollection
+ * Date: 26. November 2020
+ * Refernce: https://github.com/espressif/arduino-esp32/
+ */
+
 const char green_LED = 15;
 const char blue_LED = 27;
 const char red_LED = 33;
