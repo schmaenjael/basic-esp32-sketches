@@ -1,3 +1,11 @@
+/*
+ * Author: schmaenjael
+ * Language:  C++ using the Arduino Library
+ * Github: https://github.com/schmaenjael/ESP32_SketchCollection
+ * Date: 14. January 2021
+ * Refernce: https://github.com/espressif/arduino-esp32/
+ */
+
 const byte red_LED = 33;
 const byte blue_LED = 27;
 const byte green_LED = 15;
@@ -20,10 +28,10 @@ void setup()
   pinMode(blue_LED, OUTPUT);
   pinMode(green_LED, OUTPUT);
 
-  ledcSetup(led_CHANNEL, FREQ, RES);
-  ledcAttachPin(red_LED, led_CHANNEL);
   digitalWrite(blue_LED, LOW);
   digitalWrite(green_LED, LOW);
+  ledcSetup(led_CHANNEL, FREQ, RES);
+  ledcAttachPin(red_LED, led_CHANNEL);
 }
 
 void loop()
