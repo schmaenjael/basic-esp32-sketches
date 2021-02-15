@@ -15,6 +15,13 @@ const byte prescaler = 100;     // sets the prescaler to 100 -> it reduces the u
 const byte hw_Timer_Pos = 0;    // used to set the position of the timer to 0. Valid options vary between 0 and 3. if hw_Timer_Pos > 3 --> return NULL;
 int flag = 0;                   // the flag variable is used in the method below that is pointed to on timerAttachInterrupt()
 
+/* 
+ * This method is used to switch between HIGH and LOW for the light-emitting diode that is connected to port 33
+ * If the integer value flag is even the red LED will be set to HIGH but if the modulo calculation by two results in a remainder the
+ * light-emitting diode will be set to LOW and thus resulting in not glowing. After every method-call 'flag' will be increased by one to ensure the
+ * LED will not be set twice to the same state.
+ */
+
 void IRAM_ATTR onTimer()
 {
   // checks if flag is even or uneven
