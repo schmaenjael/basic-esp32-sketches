@@ -1,3 +1,11 @@
+/*
+ * Author: schmaenjael
+ * Language:  C++ using the Arduino Library
+ * Github: https://github.com/schmaenjael/ESP32_SketchCollection
+ * Date: 26. November 2020
+ * Refernce: https://github.com/espressif/arduino-esp32/
+ */
+
 const int freq = 5000;    // Sets the frequency of the PWM-Channel
 const int resolution = 8; // Setting the resolution
 
@@ -19,11 +27,10 @@ const int green_ledChannel = 2; // Creates the PWM-Channel for the green LED
 // This code is executed once
 void setup()
 {
-
   // Configures the BLUE_LED
-  ledcSetup(blue_ledChannel, fre q, resolution); // Configures the PWM-Channel
-  ledcAttachPin(blue_LED, blue_ledChannel);      // Attaches LED to the PWM-Channel
-  ledcWrite(blue_ledChannel, blue_dutyCycle);    // enlightens the LED our preconfigured dutyCycle
+  ledcSetup(blue_ledChannel, freq, resolution); // Configures the PWM-Channel
+  ledcAttachPin(blue_LED, blue_ledChannel);     // Attaches LED to the PWM-Channel
+  ledcWrite(blue_ledChannel, blue_dutyCycle);   // enlightens the LED our preconfigured dutyCycle
 
   //Configures the RED_LED
   ledcSetup(red_ledChannel, freq, resolution); // Configures the PWM-Channel
