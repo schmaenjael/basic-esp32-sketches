@@ -29,6 +29,17 @@ void IRAM_ATTR onTimer()
   flag++; // increments flag by one, is equal to flag += 1;
 }
 
+/*
+ * The setup method sets the red LED to OUTPUT and initializes the timer with our already defined values. 
+ * 
+ * --> timerAttachInterrupt selects as a first paramter our *timer and as a second paramter our method onTimer the "&" is required because we want
+ *     to point to our defined method. The third paramter got already explained above!
+ *                      
+ * --> timerAlarmWrite selects as a first paramter our *timer and sets the time it waits and if it should reload and thus be generated periodically.
+ * 
+ * --> timerAlarmEnable enables the alarm.
+ */
+
 void setup()
 {
   pinMode(red_LED, OUTPUT);
