@@ -8,6 +8,18 @@ This repository will be updated over time and is still in development but I'd be
 
 > This repository is a small collection of my Arduino ESP32 sketches written with the Arduino IDE. I plan on moving forward to pure C and C++ someday. You can use the sketches however you want but if you spot any errors or improvement recommendations, don't hesitate to create a pullrequest or an issue! Thank you very much!
 
+```cpp
+
+/*
+ * Author: schmaenjael
+ * Language:  C++ using the Arduino Library
+ * Github: https://github.com/schmaenjael/ESP32_SketchCollection
+ * Date: 26. November 2020
+ * Refernce: https://github.com/espressif/arduino-esp32/
+ */
+
+```
+
 ## 📎 Useful Links
 
 - [📖 Espressif](https://www.espressif.com/en/products/socs/esp32/overview)
