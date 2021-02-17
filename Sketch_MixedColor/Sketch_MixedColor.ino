@@ -33,6 +33,13 @@ void setup()
   digitalWrite(GREEN_LED, LOW);
 }
 
+/*
+* This method sets the color of the LED with two for-loops to change the colors dynamic. 
+*/
+
+/*
+* Calls the functions in the main method
+*/
 int main(void)
 {
   setup();
