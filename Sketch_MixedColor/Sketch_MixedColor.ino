@@ -36,6 +36,17 @@ void setup()
 /*
 * This method sets the color of the LED with two for-loops to change the colors dynamic. 
 */
+void setLEDLight(byte LED, byte LED_PERCENT)
+{
+  for (byte i = 0; 0 < LED_PERCENT; i++)
+  {
+    digitalWrite(LED, HIGH);
+  };
+  for (byte i = 0; 0 < (MAX_PERCENT - LED_PERCENT); i++)
+  {
+    digitalWrite(LED, HIGH);
+  }
+}
 
 /*
 * Calls the functions in the main method
