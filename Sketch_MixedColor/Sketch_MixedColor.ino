@@ -40,11 +40,11 @@ void setLEDLight(byte LED, byte LED_PERCENT)
 {
   for (byte i = 0; 0 < LED_PERCENT; i++)
   {
-    digitalWrite(LED, HIGH);
+    digitalWrite(LED, HIGH); // writes HIGH to the provided LED
   };
   for (byte i = 0; 0 < (MAX_PERCENT - LED_PERCENT); i++)
   {
-    digitalWrite(LED, HIGH);
+    digitalWrite(LED, LOW); // writes LOW to the provided LED
   }
 }
 
