@@ -16,10 +16,10 @@ const byte GREEN_LED = 15; //  initializing the green LED
 const byte BLUE_LED = 27;  //  initializing the blue LED
 const byte RED_LED = 33;   //  initializing the red LED
 
-const byte MAX_PERCENT = 100;
-const byte RED_LED_PERCENT = 25;
-const byte BLUE_LED_PERCENT = 16;
-const byte GREEN_LED_PERCENT = 0;
+const byte MAX_PERCENT = 100;     // maximal percent
+const byte RED_LED_PERCENT = 25;  // sets the percentage of the red LED to 25
+const byte BLUE_LED_PERCENT = 16; // sets the percentage of the blue LED to 16
+const byte GREEN_LED_PERCENT = 0; // sets the percentage of the green LED to 0
 
 /*
 * The setup() method configures the pin mode for the light-emitting diodes to OUTPUT and sets the GREEN_LED on startup to LOW.
