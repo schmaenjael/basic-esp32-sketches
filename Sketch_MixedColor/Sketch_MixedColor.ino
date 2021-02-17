@@ -48,6 +48,12 @@ void setLEDLight(byte LED, byte LED_PERCENT)
   }
 }
 
+void loop()
+{
+  setLEDLight(RED_LED, RED_LED_PERCENT);     // Calls the method for the red_LED
+  setLEDLight(GREEN_LED, GREEN_LED_PERCENT); // Calls the method for the green_LED
+  setLEDLight(BLUE_LED, BLUE_LED_PERCENT);   // Calls the method for the blue_LED
+}
 /*
 * Calls the functions in the main method
 */
