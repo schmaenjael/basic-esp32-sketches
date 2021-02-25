@@ -1,10 +1,11 @@
+
 /*
- * Author: schmaenjael
- * Language:  C++ using the Arduino Library
- * Github: https://github.com/schmaenjael/ESP32_SketchCollection
- * Date: 14. January 2021
- * Refernce: https://github.com/espressif/arduino-esp32/
- */
+   Author: schmaenjael
+   Language:  C++ using the Arduino Library
+   Github: https://github.com/schmaenjael/ESP32_SketchCollection
+   Date: 14. January 2021
+   Refernce: https://github.com/espressif/arduino-esp32/
+*/
 
 const byte red_LED = 33;   // initializing the red LED
 const byte blue_LED = 27;  // initializing the blue LED
@@ -20,7 +21,7 @@ const byte m_T3 = 128; // sets the key T3 to a specific value
 const byte m_T4 = 85;  // sets the key T4 to a specific value
 const byte m_T5 = 39;  // sets the key T5 to a specific value
 const byte m_T6 = 1;   // sets the key T6 to a specific value
-int m = 0;             // sets the value of m to 0
+unsigned int m = 0;    // sets the value of m to 0
 
 void setup()
 {
@@ -43,24 +44,23 @@ void loop()
   }
   else if (m > m_T2)
   {
-    ledcWrite(led_CHANNEL, m);
-    ;
+    ledcWrite(led_CHANNEL, m / 2);
   }
   else if (m > m_T3)
   {
-    ledcWrite(led_CHANNEL, m);
+    ledcWrite(led_CHANNEL, m / 3);
   }
   else if (m > m_T4)
   {
-    ledcWrite(led_CHANNEL, m);
+    ledcWrite(led_CHANNEL, m / 4);
   }
   else if (m > m_T5)
   {
-    ledcWrite(led_CHANNEL, m);
+    ledcWrite(led_CHANNEL, m / 5);
   }
   else if (m > m_T6)
   {
-    ledcWrite(led_CHANNEL, m);
+    ledcWrite(led_CHANNEL, m / 6);
   }
   else
   {

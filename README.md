@@ -60,6 +60,6 @@ If you have questions, feature requests or a bug you want to report, please clic
 
 ## ⚠️ License
 
-This Project is licensed under the MIT-License
+This Project is licensed under the MIT-License.
 
 Created with 💜 by Schmaenjael
