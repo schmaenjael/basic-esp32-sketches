@@ -23,6 +23,7 @@ const byte m_T5 = 39;  // sets the key T5 to a specific value
 const byte m_T6 = 1;   // sets the key T6 to a specific value
 unsigned int m = 0;    // sets the value of m to 0
 
+// init setup function. This method will be called once on start
 void setup()
 {
   pinMode(red_LED, OUTPUT);
