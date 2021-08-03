@@ -1,0 +1,67 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build\\sketch\\Sketch_Project.ino.cpp",
+    "Include": "Adafruit_Sensor.h",
+    "Includepath": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_Unified_Sensor"
+  },
+  {
+    "Sourcefile": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build\\sketch\\Sketch_Project.ino.cpp",
+    "Include": "Adafruit_BME280.h",
+    "Includepath": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_BME280_Library"
+  },
+  {
+    "Sourcefile": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build\\sketch\\Sketch_Project.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build\\sketch\\Sketch_Project.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build\\sketch\\Sketch_Project.ino.cpp",
+    "Include": "seg7.h",
+    "Includepath": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries\\seg7Display"
+  },
+  {
+    "Sourcefile": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build\\sketch\\Sketch_Project.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_Unified_Sensor\\Adafruit_Sensor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_BME280_Library\\Adafruit_BME280.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries\\seg7Display\\seg7.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

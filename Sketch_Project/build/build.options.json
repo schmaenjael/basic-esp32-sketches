@@ -1,0 +1,12 @@
+{
+  "additionalFiles": "",
+  "builtInLibrariesFolders": "S:\\Arduino\\libraries",
+  "builtInToolsFolders": "S:\\Arduino\\tools-builder,S:\\Arduino\\hardware\\tools\\avr,C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.path=d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\build,build.warn_data_percentage=75,runtime.tools.esptool_py.path=C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esptool_py\\3.0.0,runtime.tools.esptool_py-3.0.0.path=C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\esptool_py\\3.0.0,runtime.tools.xtensa-esp32-elf-gcc.path=C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\xtensa-esp32-elf-gcc\\1.22.0-97-gc752ad5-5.2.0,runtime.tools.xtensa-esp32-elf-gcc-1.22.0-97-gc752ad5-5.2.0.path=C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\xtensa-esp32-elf-gcc\\1.22.0-97-gc752ad5-5.2.0,runtime.tools.mkspiffs.path=C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\mkspiffs\\0.2.3,runtime.tools.mkspiffs-0.2.3.path=C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages\\esp32\\tools\\mkspiffs\\0.2.3",
+  "fqbn": "esp32:esp32:esp32:PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,DebugLevel=none",
+  "hardwareFolders": "S:\\Arduino\\hardware,C:\\Users\\Schmaenjael\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\Schmaenjael\\OneDrive\\Dokumente\\Arduino\\libraries",
+  "runtime.ide.version": "10815",
+  "sketchLocation": "d:\\Informatik_Dateien\\IT\\Programmiersprachen_Runtime\\Arduino\\ESP32_SketchCollection\\Sketch_Project\\src\\Sketch_Project.ino"
+}
