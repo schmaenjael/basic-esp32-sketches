@@ -1,3 +1,5 @@
+### ⚠ Outdated! ⚠
+
 # 🤖 ESP32_SketchCollection
 
 [![GitHub version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/schmaenjael/ESP32_SketchCollection)
